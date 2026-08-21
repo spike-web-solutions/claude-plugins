@@ -68,8 +68,7 @@
         "observability",
         "performance",
         "spring-ai"
-      ],
-      "strict": false
+      ]
     }
   ]
 }
