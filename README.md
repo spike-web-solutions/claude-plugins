@@ -51,8 +51,15 @@ claude plugin marketplace update spike-web-solutions
 
 3. Keep `name` stable forever — renaming it breaks every existing install, which
    then has to be uninstalled and reinstalled by hand.
-4. Add a row to the table above.
-5. Validate before pushing:
+4. Leave `strict` unset. The default (`true`) makes the plugin's own
+   `.claude-plugin/plugin.json` the authority for its components. Setting
+   `strict: false` makes this marketplace entry the *entire* component
+   definition, so a plugin whose manifest declares `skills`, `commands`, `agents`
+   or `hooks` fails to load, and one that declares nothing here ships nothing.
+   Only use it when this marketplace deliberately curates a plugin's components
+   itself — and then list them in the entry.
+5. Add a row to the table above.
+6. Validate before pushing:
 
    ```bash
    python3 -c "import json;json.load(open('.claude-plugin/marketplace.json'))"

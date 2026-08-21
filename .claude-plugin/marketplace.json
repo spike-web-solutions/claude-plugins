@@ -38,8 +38,7 @@
         "pester",
         "dsc",
         "sysadmin"
-      ],
-      "strict": false
+      ]
     },
     {
       "name": "java-developer",
