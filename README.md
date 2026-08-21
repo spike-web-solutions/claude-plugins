@@ -62,9 +62,7 @@ claude plugin marketplace update spike-web-solutions
 6. Validate before pushing:
 
    ```bash
-   python3 -c "import json;json.load(open('.claude-plugin/marketplace.json'))"
-   claude plugin marketplace add ./claude-plugins
-   claude plugin marketplace info spike-web-solutions
+   claude plugin validate .
    ```
 
 ## Rules
@@ -73,9 +71,10 @@ claude plugin marketplace update spike-web-solutions
   not the repo name and does not have to match it.
 - A plugin's `version` here should track the `version` in that plugin's own
   `plugin.json`. They are separate files; nothing syncs them automatically.
-- Plugin repos may keep their own development marketplace for local clones, but
-  it must use a different `name` (for example `windows-server-admin-dev`) so it
-  never competes with this one.
+- Plugin repos need only their own `.claude-plugin/plugin.json`; the `github`
+  source above reads it directly, so they do not carry a marketplace manifest of
+  their own. Local clones load with `claude --plugin-dir <path>`, no marketplace
+  or install step involved.
 
 ## License
 
