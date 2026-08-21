@@ -1,0 +1,45 @@
+{
+  "name": "spike-web-solutions",
+  "owner": {
+    "name": "Spike Web Solutions",
+    "url": "https://github.com/spike-web-solutions"
+  },
+  "metadata": {
+    "description": "Claude Code plugins published by Spike Web Solutions.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "windows-server-admin",
+      "source": {
+        "source": "github",
+        "repo": "spike-web-solutions/windows-server-admin"
+      },
+      "description": "34 skills, 6 commands and 3 agents for administering Windows Server 2016-2025 and writing the PowerShell that does it — read-only-first, change-controlled, version-gated.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Orhan Firik",
+        "email": "orhanfirik@gmail.com"
+      },
+      "homepage": "https://github.com/spike-web-solutions/windows-server-admin",
+      "repository": "https://github.com/spike-web-solutions/windows-server-admin",
+      "license": "MIT",
+      "category": "devops",
+      "keywords": [
+        "windows-server",
+        "powershell",
+        "active-directory",
+        "hyper-v",
+        "failover-clustering",
+        "iis",
+        "group-policy",
+        "azure-arc",
+        "psremoting",
+        "pester",
+        "dsc",
+        "sysadmin"
+      ],
+      "strict": false
+    }
+  ]
+}
