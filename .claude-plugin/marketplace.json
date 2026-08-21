@@ -15,7 +15,7 @@
         "source": "github",
         "repo": "spike-web-solutions/windows-server-admin"
       },
-      "description": "34 skills, 6 commands and 3 agents for administering Windows Server 2016-2025 and writing the PowerShell that does it — read-only-first, change-controlled, version-gated.",
+      "description": "34 skills, 6 commands and 3 agents for administering Windows Server 2016-2025 and writing the PowerShell that does it \u2014 read-only-first, change-controlled, version-gated.",
       "version": "0.4.0",
       "author": {
         "name": "Orhan Firik",
@@ -38,6 +38,36 @@
         "pester",
         "dsc",
         "sysadmin"
+      ],
+      "strict": false
+    },
+    {
+      "name": "java-developer",
+      "source": {
+        "source": "github",
+        "repo": "spike-web-solutions/java-developer"
+      },
+      "description": "14 skills for Java and Spring Framework work \u2014 service structure, JPA, security, testing, messaging, HTTP clients, concurrency, observability, performance, modular architecture, Spring AI, builds, containers and upgrades.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Orhan Firik",
+        "email": "orhanfirik@gmail.com"
+      },
+      "homepage": "https://github.com/spike-web-solutions/java-developer",
+      "repository": "https://github.com/spike-web-solutions/java-developer",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "java",
+        "spring",
+        "spring-boot",
+        "jvm",
+        "jpa",
+        "kafka",
+        "testing",
+        "observability",
+        "performance",
+        "spring-ai"
       ],
       "strict": false
     }

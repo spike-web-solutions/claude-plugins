@@ -30,6 +30,7 @@ claude plugin marketplace update spike-web-solutions
 | Plugin | Install | What it does |
 | --- | --- | --- |
 | [windows-server-admin](https://github.com/spike-web-solutions/windows-server-admin) | `windows-server-admin@spike-web-solutions` | 34 skills, 6 commands and 3 agents for Windows Server 2016-2025 administration and the PowerShell that does it. |
+| [java-developer](https://github.com/spike-web-solutions/java-developer) | `java-developer@spike-web-solutions` | 14 skills for Java and Spring Framework work, written against Spring Boot 4.1 and Java 21/25 LTS. |
 
 ## Adding a plugin
 
